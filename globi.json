@@ -1,0 +1,87 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://portal.edirepository.org/nis/dataviewer?packageid=edi.512.1&entityid=bb87318745d9b83f102aa0a58e9b5386",
+    "dcterms:bibliographicCitation" : "CaraDonna, P.J. 2020. Temporal variation in plant-pollinator interactions, Rocky Mountain Biological Laboratory, CO, USA, 2013 - 2015 ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/27dc02fe1655e3896f20326fed5cb95f (Accessed 2021-04-16).",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "doi": "10.6073/pasta/27dc02fe1655e3896f20326fed5cb95f",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002623",
+    "interactionTypeName": "hasFlowersVisitedBy",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "http://rs.tdwg.org/dwc/terms/year",
+        "titles" : "year",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "date",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/startDayOfYear",
+        "titles" : "day_of_year",
+        "datatype" : "string"
+      }, {
+        "name" : "week_num",
+        "titles" : "week_num",
+        "datatype" : "string"
+      }, {
+        "name" : "site",
+        "titles" : "site",
+        "datatype" : "string"
+      }, {
+        "name" : "transect",
+        "titles" : "transect",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventTime",
+        "titles" : "start_time",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventTime",
+        "titles" : "end_time",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "plant",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "pollinator",
+        "datatype" : "string"
+      }, {
+        "name" : "interactions",
+        "titles" : "interactions",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamilyName",
+        "titles" : "pollinator_family",
+        "datatype" : "string"
+      }, {
+        "name" : "pollinator_group",
+        "titles" : "pollinator_group",
+        "datatype" : "string"
+      }, {
+        "name" : "targetSexName",
+        "titles" : "pollinator_sex",
+        "datatype" : "string"
+      }, {
+        "name" : "pollinator_2013",
+        "titles" : "pollinator_2013",
+        "datatype" : "string"
+      }, {
+        "name" : "observer",
+        "titles" : "observer",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
