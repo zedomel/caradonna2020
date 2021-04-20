@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/zedomel/caradonna2020.svg)](https://travis-ci.com/zedomel/caradonna2020) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=zedomel:caradonna2020)](http://globalbioticinteractions.org/?accordingTo=zedomel:caradonna2020)
+[![Build Status](https://travis-ci.com/zedomel/caradonna2020.svg)](https://travis-ci.com/zedomel/caradonna2020) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:zedomel/caradonna2020)](https://globalbioticinteractions.org/?accordingTo=globi:zedomel/caradonna2020)
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
